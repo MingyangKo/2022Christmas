@@ -17,6 +17,7 @@ var timeTag=0,durTime;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
+	pixelDensity(1);
 	background('#45556e');
 	noStroke();
 	engine = Engine.create();
