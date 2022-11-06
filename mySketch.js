@@ -40,6 +40,12 @@ function setup() {
 	boun=new ObjectBox({
 		x:width/2,y:height-10,w:width,h:20
 	});
+  	boun=new ObjectBox({
+		x:-10,y:height/2,w:20,h:height
+	});
+  	boun=new ObjectBox({
+		x:width+10,y:height/2,w:20,h:height
+	});
 
 }
 
